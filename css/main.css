@@ -50,6 +50,32 @@ main p{
     left: 50%;
     top: -14px;
     transform: translateX(-50%);
+    z-index: 10;
+}
+
+.oper{
+    position: fixed;
+    left: 0;
+    top: 300px;
+}
+
+.rel_p{
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+
+.stic_p{
+    background-color: rgba(0, 0, 0, 0.248);
+    position: sticky;
+    top: 0;
+}
+
+.bird{
+    position: absolute;
+    left: 40%;
+    top: -45px;
+    z-index: 9;
 }
 
 
